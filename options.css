@@ -1,0 +1,61 @@
+header {
+  color: #e3e4eb;
+  background-color: #561385;
+  border: 1px solid black;
+  margin:0;
+ 
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+	background-color:#e3e4eb;
+    
+
+  margin:0;
+  padding:0;
+}
+
+
+.nav{
+	/*border:1px solid #ccc;*/
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+   text-align:center;
+}
+
+.nav li{
+	display:inline;
+}
+
+
+
+[data-nav] a:hover {
+    background-color: #111;
+}
+
+[data-nav] a {  
+    display:inline-block;
+    padding: 10px;
+    color: white;
+   
+}
+
+
+[data-home] a {  
+    display:inline-block;
+    padding: 10px;
+    color: white;
+    
+
+}
+
+[data-home] a:hover {
+    background-color: #111;
+}
+
