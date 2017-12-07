@@ -3,13 +3,13 @@ header {
   background-color: #561385;
   border: 1px solid black;
   margin-bottom: 20px;
-
+  padding-bottom: 25px;
   border-top: 3px solid #e3e4eb;
 
 }
 
 
-img {
+header img {
     padding-top: 10px;
     display: block;
     margin: 0 auto;
@@ -25,6 +25,7 @@ img {
   float: right;
   border-radius: 20px;
 }
+
 input{
   padding: 10px;
 }
@@ -36,16 +37,15 @@ body {
 }
 
 
+
 .nav{
 
 	list-style: none;
-	margin: 0;
 	padding-top: 1px;	
   text-align:center;
 }
 
 .nav li{
-	/*display:inline;*/
  float:left; 
   
 }
@@ -58,10 +58,13 @@ body {
 }
 
 [data-nav] a { 
-
+    font-family: Verdana;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     border: 1px solid #bbb;
     display:inline-block;
-    padding: 10px;
+    padding: 16px;
     padding-right: 20px;
     padding-left: 20px;
     color: white;

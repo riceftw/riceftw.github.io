@@ -3,24 +3,95 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Create that Case: Choose Your Material</title>
-    <link rel="stylesheet" href="Options.css">
+    <title>Create that Case: Options</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="options.css">
+    <link rel="icon" href="./tabicon.png">
+
   </head>
 
-  <header>
-  	<h1> Create that Case </h1>
-  	<div id ="navigation">
-  		<ul class="nav">
-  			<li><a href="home.html">Home</a></li>
-  			<li><a href="contact.html">Contact Us</a></li>
-  			<li><a href="account.html">My Account</a></li>
-  			<li><a href="orders.html">Orders</a></li>
-		</ul> 
-	</div>
+ <header>
+
+    <a data-home href="index.html"><img src = "./CreateLogo.png" ></a>
+
+    <ul class="input">
+           <input type ="text" name="search" placeholder="Search...">
+           <li data-nav><a style = "text-decoration:none;" href="login.html">Login</a></li>
+
+           <li data-nav><a style = "text-decoration:none;" href="yourCart.html">Shopping Cart</a></li>
+
+    </ul>
+ 
+    
   </header>
 
+
   <body>
-  	<p> Test </p>
+    <div class ="navigation">
+
+        <ul class="nav">
+          <li data-nav><a href="contact.html">Contact Us</a></li>
+          <li data-nav><a href="accountPage.html">My Account</a></li>
+          <li data-nav><a href="yourOrders.html">Orders</a></li>
+        </ul> 
+
+     </div>
+    <br clear="all" />
+    <div class = "types">
+        <img src = "./iPhoneBattery.jpg" >
+
+        <div class = "dropdown">
+          
+            <button class="dropbtn">Glossy or Matte</button>
+              <div class="dropdown-content">
+                <label><input type="checkbox" /> Black</label>
+                <label><input type="checkbox" /> Blue</label>
+                <label><input type="checkbox" /> Gold</label>
+                <label><input type="checkbox" /> Green</label>
+                <label><input type="checkbox" /> Orange</label>
+                <label><input type="checkbox" /> Purple</label>
+                <label><input type="checkbox" /> Rose Gold</label>
+                <label><input type="checkbox" /> Red</label>
+                <label><input type="checkbox" /> Silver</label>
+                <label><input type="checkbox" /> White</label>
+
+              </div>
+        </div>
+        <div class = "dropdown">
+            <button class="dropbtn">Leather</button>
+              <div class="dropdown-content">
+                <label><input type="checkbox" /> Black</label>
+                <label><input type="checkbox" /> Brown</label>
+                <label><input type="checkbox" /> White</label>
+
+              </div>
+        </div>
+        <div class = "dropdown">
+            <button class="dropbtn">Wood</button>
+              <div class="dropdown-content">
+                <label><input type="checkbox" /> Ash</label>
+                <label><input type="checkbox" /> Bamboo</label>
+                <label><input type="checkbox" /> Oak</label>
+                <label><input type="checkbox" /> Mahogany</label>
+                <label><input type="checkbox" /> Walnut</label>
+                
+              </div>
+        </div>
+        <br clear="all" />
+
+        
+        <ul class="order">
+          <li orderb><a href="index.html">Back</a></li>
+          <li orderb><a href="yourCart.html">Add to Cart</a></li>
+        </ul>
+        
+    </div>
+
+    
+    <br clear="all" />
+
+    
+
   </body>
 
 </html>

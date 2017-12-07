@@ -1,0 +1,130 @@
+
+     background-color:#e3e4eb;
+     background-color:transparent;
+h1
+{
+    font-family: Verdana;
+    font-weight:bold;
+    font-size: 18px;
+    color:#e3e4eb;
+    border:2px solid #e3e4eb;
+    text-align:center;
+    width:100%;
+}
+
+caption
+{   
+    font-family: Verdana;
+    font-weight:bold;
+    font-size: 20px;
+    margin-top: 20px;
+    border-top: 4px solid black;
+    border-bottom: 2px solid black;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #e3e4eb;  
+}
+table 
+{
+    border: 2px solid black;
+    background-color: #e3e4eb;  
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+thead th:nth-child(1)
+{
+    width: 33.33%;
+}
+
+thead th:nth-child(2)
+{
+    width: 33.33%;
+}
+
+thead th:nth-child(3) 
+{
+    width: 33.33%;
+}
+
+th, td 
+{
+    font-family: Verdana;
+    font-size: 15px;
+    text-align:center;
+    border: 2px solid black;
+    width:100%;    
+    padding: 20px;
+}
+
+tfoot
+{
+    border-top: 4px solid black;
+    border-bottom:4px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.button1
+{  
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top:20px;
+    margin-left:20%;
+    margin-right:20%;
+    width: 20%;
+    float:left;
+    line-height: 35px;
+    border-radius: 20px;
+    background-image: linear-gradient;
+    background-color: #9981cc;
+    box-shadow: 1px 1px 1px black,
+              inset 2px 3px 5px #9981cc,
+              inset -2px -3px 5px #9981cc;
+}
+
+.button1:focus, button:hover
+{
+    background-image: linear-gradient;
+    background-color: #9981cc;
+}
+
+.button1:active
+{
+ box-shadow: inset 2px 2px 1px black,
+              inset 2px 3px 5px #9981cc,
+              inset -2px -3px 5px #9981cc;
+}
+
+.button2
+{  
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top:20px;
+    margin-right:20%;
+    width: 20%;
+    float:left;
+    line-height: 35px;
+    border-radius: 20px;
+    background-image: linear-gradient;
+    background-color: #9981cc;
+    box-shadow: 1px 1px 1px black,
+              inset 2px 3px 5px #9981cc,
+              inset -2px -3px 5px #9981cc;
+}
+
+.button2:focus, button:hover
+{
+    background-image: linear-gradient;
+    background-color: #9981cc;
+}
+
+.button2:active
+{
+ box-shadow: inset 2px 2px 1px black,
+              inset 2px 3px 5px #9981cc,
+              inset -2px -3px 5px #9981cc;
+}
