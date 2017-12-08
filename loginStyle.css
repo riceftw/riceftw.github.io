@@ -22,6 +22,7 @@ body
 	margin: 0 auto;
 	margin-top: 60px;
 	margin-bottom:40px;
+	padding-bottom: 50px;
 }
 
 /* Input box style */
@@ -50,13 +51,13 @@ input[type="password"]
 {
 	font-family: Verdana;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 16px;
     margin-top:20px;
     margin-left:40%;
     margin-right:50%;
     margin-bottom: 5%;
     width: 20%;
-    line-height: 20px;
+    line-height: 0px;
     border-radius: 20px;
     background-image: linear-gradient;
     background-color: #9981cc;
