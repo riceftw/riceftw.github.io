@@ -1,69 +1,105 @@
 <!DOCTYPE html>
 <html>
+
+
+ <!-- CSS style and page info -->
 <head>
 	<title>Account page for mini project</title>
-	<link rel="stylesheet" type="text/css" href="./accountCss.css">
-	<link rel="stylesheet" type="text/css" href="./header.css">
-  <link rel="icon" href="./tabicon.png">
-
+	<link rel="stylesheet" type="text/css" href="accountCss.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="icon" href="./tabicon.png">
 </head>
 
+
+ <!-- Logo, Shopping Cart, and Login elements-->
 <header> 
-     <a data-home href="index.html"><img src = "CreateLogo.png" ></a>
+ <a data-home href="index.html"><img src = "CreateLogo.png" ></a>
 
-    <ul class="input">
-        <input type ="text" name="search" placeholder="Search...">
-           <li data-nav><a style = "text-decoration:none;" href="login.html">Login</a></li> 
-           <li data-nav><a style = "text-decoration:none;" href="yourOrders.html">Shopping Cart</a>
-          </li>
-    </ul>
-  </header>
-
-    <div class ="navigation">
-      <ul class="nav">
-        <li data-nav><a href="contact.html"> Contact Us </a></li>
-        <li data-nav><a href="accountPage.html"> Your Account </a</li>
-        <li data-nav><a href="yourOrders.html"> Your Orders </a></li>
-      </ul> 
-    </div>
-
-    <div class = "outline">
-
-    	<div class = "nameBox">
-    		<h2 style="margin-top: 8px;">Hi Erica!</h2>
-    	</div>
+ <ul class="input">
+  <input type ="text" name="search" placeholder="Search...">
+  <li data-nav><a style = "text-decoration:none;" href="login.html">Login</a></li> 
+  <li data-nav><a style = "text-decoration:none;" href="yourCart.html">Shopping Cart</a>
+  </li>
+</ul>
+</header>
 
 
-    	<table style="width:100%">
- 
-  			<tr>
-    			<td><div class="circle">
-    		<p style="padding: 15px; font-size: 20px;">Security</p> 
-    	</div></td>
-   				 <td><table style="margin-left: 190px; text-align: left;"><tr><td><a href="random.html"> Your details </a></td></tr><tr><td><a href="random.html"> Change your passwords </a></td></tr></table></td>
-  			</tr>
-  			<tr>
-    			<td><div class="circle">
-    		<p style="padding: 15px; font-size: 20px;">History</p> 
-    	</div></td>
-   				 <td><table style="margin-left: 190px; text-align: left;"><tr><td><a href="yourOrders.html"> Your past orders </a></td></tr><tr><td><a href="random.html"> Your Receipts </a></td></tr></table></td>
-  			<tr>
-    			<td><div class="circle">
-    		<p style="padding: 15px; font-size: 20px;">Payment</p> 
-    	</div></td>
-   				 <td><table style="margin-left: 190px; text-align: left;"><tr><td><a href="random.html"> Change or renew your card details </a></td></tr><tr><td><a href="random.html"> Change your billing or delivery address </a></td></tr></table></td>
-  			</tr>
-		</table>
-	</div>
+ <!-- Navigation Bar Elements -->
+<div class ="navigation">
+  <ul class="nav">
+    <li data-nav><a href="contact.html"> Contact Us </a></li>
+    <li data-nav><a href="accountPage.html"> Your Account </a</li>
+      <li data-nav><a href="yourOrders.html"> Your Orders </a></li>
+  </ul> 
+</div>
 
 
+<!-- Account Name Element -->
+<div class = "outline">
+
+   <div class = "nameBox">
+    <h2 style="margin-top: -10px; font-size: 25px; font-style:bold; font-family: Verdana;"> Hi Erica! </h2>
+</div>
 
 
+<!-- Table Elements -->
+<table style="width:100%">
 
 
+<!-- Security Box Element -->
+    <tr>
+    <td><div class="circle1">
+    <p style="padding: 15px; font-size: 18px; font-style:bold; font-family: Verdana;">Security</p> 
+    </div></td>
+    <td>
+      <table class= "t1" style="margin-left: 190px; text-align: left;">
+        <tr>
+          <td> - Your details </td>
+      </tr>
+      <tr>
+          <td> - Change your passwords </td>
+      </tr>
+  </table>
+</td>
+</tr>
+<tr>
+   <td>
+
+    <!-- History Box Element -->
+    <div class="circle2">
+      <p style="padding: 15px; font-size: 18px; margin-bottom:220px; font-style:bold; font-family: Verdana;">History</p> 
+  </div>
+</td>
+<td>
+    <table class= "t2" style="margin-left: 190px; text-align: left; margin-bottom:220px; font-style:bold; font-family: Verdana;">
+      <tr>
+        <td> - Your past orders </td>
+    </tr>
+    <tr>
+        <td> - Your Receipts </td>
+    </tr>
+</table>
+</td>
+<tr>
+   <td>
 
 
-<body>
-
-</body>
+    <!-- Payment Box Element -->
+    <div class="circle3">
+      <p style="padding: 15px; font-size: 18px; margin-bottom:220px;font-style:bold; font-family: Verdana;">Payment</p> 
+  </div>
+</td>
+<td>
+    <table class= "t3" style="margin-left: 190px; text-align: left;">
+      <tr>
+        <td> - Change or renew your card details</td>
+    </tr>
+    <tr>
+        <td> - Change your billing or delivery address</td>
+    </tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
 </html>

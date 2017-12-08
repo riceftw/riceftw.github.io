@@ -1,38 +1,97 @@
-.outline{
+
+/* Outside Box Style */
+.outline
+{
+	padding: 10px; 
 	width: 500px;
-	height: 800px;
+	height: 550px;
 	text-align: center; 
 	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 40px;
 	border-style: solid;
 	border-width: medium;
-	margin-top: 60px;
-
-}
-
-.nameBox{
-	background-color: rgba(153,129,205,0.2);
-	color:purple; 
-	padding: 10px; 
-	margin-top: 0px;
-	width: 250px;
-	height: 50px;
-	text-align: center; 
-	margin: 0 auto;
-	margin-top: 0px;
-	border-top-style: none;
-    border-right-style: solid;
+	border:2px solid #561385;
+	border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
 }
 
-.circle {
+/* Title Box */
+.nameBox
+{
+	width: 520px;
+	height: 570px;
+	text-align: center; 
+	margin-bottom:10px; 
+	margin-left:-10px;
+	margin-right:10px;
 	background-color: rgba(153,129,205,0.2);
-	margin-top: 50px;
+	border-radius: 4px;
+}
+
+/* Security Box Style */
+.circle1 
+{
+	background-color: #e3e4eb;
+	margin-top: -520px;
 	margin-left: 30px;
 	margin-right:-150px;
-    border: 2px solid purple;
+    border: 2px solid #561385;
     height: 100px;
     border-radius:20%;
     width: 100px;
     padding: 10px;
 }
+
+/* History Box Style */
+.circle2 
+{
+	background-color: #e3e4eb;
+	margin-top: -370px;
+	margin-left: 30px;
+	margin-right:-150px;
+    border: 2px solid #561385;
+    height: 100px;
+    border-radius:20%;
+    width: 100px;
+    padding: 10px;
+}
+
+/* Payment Box Style */
+.circle3 
+{
+	background-color: #e3e4eb;
+	margin-top: -220px;
+	margin-left: 30px;
+	margin-right:-150px;
+    border: 2px solid #561385;
+    height: 100px;
+    border-radius:20%;
+    width: 100px;
+    padding: 10px;
+}
+
+/* Text Style */
+.t1
+{
+	font-family: Verdana;
+	font-size: 15px;
+	padding: 15px;
+	margin-top: -510px;
+}
+.t2
+{
+	font-family: Verdana;
+	font-size: 15px;
+	padding: 15px;
+	margin-top: -360px;
+}
+.t3
+{
+	font-family: Verdana;
+	font-size: 15px;
+	padding: 15px;
+	margin-top: -210px;
+}
+

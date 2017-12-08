@@ -1,6 +1,8 @@
+/* Background color */
+background-color:#e3e4eb;
+background-color:transparent;
 
-     background-color:#e3e4eb;
-     background-color:transparent;
+/* Title style*/
 h1
 {
     font-family: Verdana;
@@ -12,6 +14,7 @@ h1
     width:100%;
 }
 
+/* Table caption style */
 caption
 {   
     font-family: Verdana;
@@ -24,6 +27,8 @@ caption
     padding-bottom: 16px;
     background-color: #e3e4eb;  
 }
+
+/* Table style */
 table 
 {
     border: 2px solid black;
@@ -31,8 +36,10 @@ table
     border-collapse: collapse;
     table-layout: fixed;
     width: 100%;
+    margin-bottom: 40px;
 }
 
+/* Table cell style */
 thead th:nth-child(1)
 {
     width: 33.33%;
@@ -66,6 +73,8 @@ tfoot
     padding-bottom: 5px;
 }
 
+/* Add to order button and back button style */
+/* Back button*/
 .button1
 {  
     font-family: Verdana;
@@ -81,8 +90,8 @@ tfoot
     background-image: linear-gradient;
     background-color: #9981cc;
     box-shadow: 1px 1px 1px black,
-              inset 2px 3px 5px #9981cc,
-              inset -2px -3px 5px #9981cc;
+    inset 2px 3px 5px #9981cc,
+    inset -2px -3px 5px #9981cc;
 }
 
 .button1:focus, button:hover
@@ -93,11 +102,12 @@ tfoot
 
 .button1:active
 {
- box-shadow: inset 2px 2px 1px black,
-              inset 2px 3px 5px #9981cc,
-              inset -2px -3px 5px #9981cc;
+   box-shadow: inset 2px 2px 1px black,
+   inset 2px 3px 5px #9981cc,
+   inset -2px -3px 5px #9981cc;
 }
 
+/* Purchase button */
 .button2
 {  
     font-family: Verdana;
@@ -112,8 +122,8 @@ tfoot
     background-image: linear-gradient;
     background-color: #9981cc;
     box-shadow: 1px 1px 1px black,
-              inset 2px 3px 5px #9981cc,
-              inset -2px -3px 5px #9981cc;
+    inset 2px 3px 5px #9981cc,
+    inset -2px -3px 5px #9981cc;
 }
 
 .button2:focus, button:hover
@@ -124,7 +134,7 @@ tfoot
 
 .button2:active
 {
- box-shadow: inset 2px 2px 1px black,
-              inset 2px 3px 5px #9981cc,
-              inset -2px -3px 5px #9981cc;
+   box-shadow: inset 2px 2px 1px black,
+   inset 2px 3px 5px #9981cc,
+   inset -2px -3px 5px #9981cc;
 }

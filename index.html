@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <html>
+
+
+ <!-- CSS style and page info -->
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="yourAccountStyle.css">
-  <link rel="stylesheet" type="text/css" href="header.css">
-  <link rel="stylesheet" type="text/css" href="indexStyle.css">
-  <link rel="icon" href="./tabicon.png">
-
-
+	<meta charset="utf-8">
+	<title>Create that Case: Home Page</title>
+	<link rel="stylesheet" type="text/css" href="yourAccountStyle.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="indexStyle.css">
+	<link rel="icon" href="./tabicon.png">
 </head>
-  <header>
-     <a data-home href="index.html"><img src = "./CreateLogo.png" ></a>
 
-    <ul class="input">
-        <input type ="text" name="search" placeholder="Search...">
-           <li data-nav><a style = "text-decoration:none;" href="login.html">Login</a></li>
 
-           <li data-nav><a style = "text-decoration:none;" href="yourOrders.html">Shopping Cart</a>
-          </li>
-    </ul>
-  </header>
+ <!-- Logo, Shopping Cart, and Login elements-->
+<header>
+	<a data-home href="index.html"><img src = "./CreateLogo.png" ></a>
 
-    <div class ="navigation">
-      <ul class="nav">
-        <li data-nav><a href="contact.html"> Contact Us </a></li>
-        <li data-nav><a href="accountPage.html"> Your Account </a></li>
-        <li data-nav><a href="yourOrders.html"> Your Orders </a></li>
-      </ul> 
-    </div>
+	<ul class="input">
+		<input type ="text" name="search" placeholder="Search...">
+		<li data-nav><a style = "text-decoration:none;" href="login.html">Login</a></li>
 
-	<style type="text/css">
-</style>
-	<body>
-		<div class="cases">
-			<div class="elements">
-				<img src="Shock.jpeg" class="casePics">
-				<div class="dropDownBoxes">
+		<li data-nav><a style = "text-decoration:none;" href="yourCart.html">Shopping Cart</a>
+		</li>
+	</ul>
+</header>
+
+ <!-- Navigation Bar Elements -->
+<div class ="navigation">
+	<ul class="nav">
+		<li data-nav><a href="contact.html"> Contact Us </a></li>
+		<li data-nav><a href="accountPage.html"> Your Account </a></li>
+		<li data-nav><a href="yourOrders.html"> Your Orders </a></li>
+		
+	</ul> 
+</div>
+
+
+ <!-- Names of Case elements -->
+<body>
+	<div class="cases">
+		<ul class ="types">
+			<li material> Shockproof Case </li>
+			<li material> Leather Case </li>
+			<li material> Wood Case </li>
+		</ul>
+		<br clear="all" />
+
+
+ <!-- Shockproof Case Elements-->
+		<div class="elements">
+			<img src="Shock.jpeg" class="casePics">
+			<div class="dropDownBoxes">
 				<select name="Select iPhone model...">
 					<option value=" type "> Choose type of iPhone </option>
 					<option value="Options.html">SE</option>
@@ -44,25 +60,13 @@
 					<option value=" 8 ">8</option>
 					<option value=" X ">X</option>
 				</select>
-				</div>
 			</div>
-			
-			<div class="elements">
-				<img src="leather.jpeg" class="casePics">
-				<div class="dropDownBoxes">
-				<select name="Select iPhone model...">
-					<option value=" type "> Choose type of iPhone </option>
-					<option value=" SE ">SE</option>
-					<option value=" 6 ">6</option>
-					<option value=" 7 ">7</option>
-					<option value=" 8 ">8</option>
-					<option value=" X ">X</option>
-				</select>
-				</div>
-			</div>
-			<div class="elements">
-				<img src="wood.jpeg" class="casePics">
-				<div class="dropDownBoxes">
+		</div>
+
+ <!-- Leather Case Elements -->		
+		<div class="elements">
+			<img src="leather.jpeg" class="casePics">
+			<div class="dropDownBoxes">
 				<select name="Select iPhone model...">
 					<option value=" type "> Choose type of iPhone </option>
 					<option value=" SE ">SE</option>
@@ -73,8 +77,25 @@
 				</select>
 			</div>
 		</div>
-		<ul class="nav">
-          <li data-nav><a href="Options.html">Customize</a></li>
-        </ul>		
+
+ <!-- Wood Case Elements -->
+		<div class="elements">
+			<img src="wood.jpeg" class="casePics">
+			<div class="dropDownBoxes">
+				<select name="Select iPhone model...">
+					<option value=" type "> Choose type of iPhone </option>
+					<option value=" SE ">SE</option>
+					<option value=" 6 ">6</option>
+					<option value=" 7 ">7</option>
+					<option value=" 8 ">8</option>
+					<option value=" X ">X</option>
+				</select>
+			</div>
+		</div>
+
+ <!-- Customization Button Navigation -->
+		<ul class="custom">
+			<li customize><a href="options.html">Customize</a></li>
+		</ul>		
 	</body>
-</html>
+	</html>

@@ -1,66 +1,78 @@
 <!DOCTYPE html>
 <html>
+
+ <!-- CSS style and page info -->
 <head>
   <meta charset="utf-8">
+  <title>Create that Case: Shopping Cart</title>
   <link rel="stylesheet" type="text/css" href="yourCartStyle.css">
   <link rel="stylesheet" type="text/css" href="header.css">
   <link rel="icon" href="./tabicon.png">
-
-
 </head>
-  <header>
-     <a data-home href="index.html"><img src = "./CreateLogo.png" ></a>
 
-    <ul class="input">
-        <input type ="text" name="search" placeholder="Search...">
-           <li data-nav><a style = "text-decoration:none;" href="login.html">Login</a></li>
 
-           <li data-nav><a style = "text-decoration:none;" href="yourCart.html">Shopping Cart</a>
-          </li>
-    </ul>
-  </header>
+ <!-- Logo, Shopping Cart, and Login elements-->
+<header>
+   <a data-home href="index.html"><img src = "./CreateLogo.png" ></a>
 
-    <div class ="navigation">
-      <ul class="nav">
-        <li data-nav><a href="contact.html"> Contact Us </a></li>
-        <li data-nav><a href="accountPage.html"> Your Account </a></li>
-        <li data-nav><a href="yourOrders.html"> Your Orders </a></li>
-      </ul> 
-    </div>
+   <ul class="input">
+      <input type ="text" name="search" placeholder="Search...">
+      <li data-nav><a style = "text-decoration:none;" href="login.html">Login</a></li>
 
-  <table style="width:100%">
-    <caption> Your Shopping Cart </caption>
-    <thead>
-      <tr>
-        <th scope="col1"> Product </th>
-        <th scope="col2"> Quantity </th>
-        <th scope="col3"> Price </th>
-      </tr>
-    </thead>
-   <tbody>
-      <tr>
-        <td> Battery Case for iPhone 7 (Blue Matte) </td>
-        <td> [ 2 ] </td>
-        <td> £45.00 </td>
-      </tr>
-      <tr>
-        <td> Flexible Silicone Case for iPhone X (Bamboo Wood) </td>
-        <td> [ 1 ] </td>
-        <td> £12.00 </td>
-      </tr>
-      <tr>
-        <td> Wallet Case for iPhone SE (Black Leahter) </td>
-        <td> [ 1 ]</td>
-        <td> £15.00 </td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <th scope="row" colspan="3"> Total Price = £72.00 </th>
-      </tr>
-    </tfoot>
-  </table>
-  <button class="button1"> Back </button>
-  <button class="button2"> Submit Purchase </button>
+      <li data-nav><a style = "text-decoration:none;" href="yourCart.html">Shopping Cart</a>
+      </li>
+  </ul>
+</header>
+
+
+<!-- Navigation Bar Elements -->
+<div class ="navigation">
+  <ul class="nav">
+    <li data-nav><a href="contact.html"> Contact Us </a></li>
+    <li data-nav><a href="accountPage.html"> Your Account </a></li>
+    <li data-nav><a href="yourOrders.html"> Your Orders </a></li>
+</ul> 
+</div>
+
+
+<!-- Shopping Cart Elements -->
+<table style="width:100%">
+  <caption> Your Shopping Cart </caption>
+  <thead>
+    <tr>
+      <th scope="col1"> Product </th>
+      <th scope="col2"> Quantity </th>
+      <th scope="col3"> Price </th>
+  </tr>
+</thead>
+
+<!-- Table Elements -->
+<tbody>
+    <tr>
+      <td> Shockproof for iPhone 7 (Glossy Blue) </td>
+      <td> [ 2 ] </td>
+      <td> £24.00 </td>
+  </tr>
+  <tr>
+      <td> Shockproof Case for iPhone X (Wood Bamboo) </td>
+      <td> [ 1 ] </td>
+      <td> £24.50 </td>
+  </tr>
+  <tr>
+      <td> Leather Case for iPhone SE (Leather Black) </td>
+      <td> [ 1 ]</td>
+      <td> £22.50 </td>
+  </tr>
+</tbody>
+<tfoot>
+    <tr>
+      <th scope="row" colspan="3"> Total Price = £72.00 </th>
+  </tr>
+</tfoot>
+</table>
+
+<!-- Navigation Elements -->
+<button class="button1"> Back </button>
+<button class="button2"> Submit Purchase </button>
 </body>
 </html>

@@ -1,30 +1,99 @@
+/* CSS for Home Page*/
 h3 {
 	text-align: right;
+}
 
-	}
-	img{
+img{
 	margin-right:30px;
-	}
-	.elements{
-		text-align: center;
-		float: left;
-		margin: 10px;
+}
 
-	}
-	.dropDownBoxes{
-		margin: 5px 0;
+/* Style for phone options*/
+.elements{
+	text-align: center;
+	float: left;
+	margin: 10px;
+}
 
-    		
-	}
-	.casePics{
-		margin: 0 auto;
+/* Drop down style */
+.dropDownBoxes{
+	margin-top: 10px;
+	margin-right: 20px;
+	
+}
 
-    	height:200px;
-    	width:200px;
-    	display: block;
-	}
-	.cases{
+/* Picture material style */
+.casePics{
+	margin: 0 auto;
+	margin-right: 20px;
+	height:200px;
+	width:200px;
+	display: block;
+}
+.cases{
+	float: right;
+	overflow: auto;
+	border:2px solid #561385;
+	padding-left: 50px;
+	margin-top: 20px;
+	margin-right: 120px;
 
-    		overflow: auto;
-	}
+}
 
+/*Style for each type */
+.types{
+	list-style: none;
+	padding-top: 1px;	
+	text-align:center;
+}
+
+.types li{
+	float:left;   
+}
+
+[material] {
+	font-family: Verdana;
+	font-size: 18px;
+	font-style: bold;
+
+	display:inline-block;
+	
+	padding-right: 20px;
+	color: black;
+	margin-right: 90px;
+
+}
+
+/* Customization button style */
+.custom{
+	list-style: none;
+	padding-top: 1px;	
+	text-align:center;
+}
+
+.custom li{
+	float:right; 
+	
+}
+
+[customize] a:hover {
+	background-color: #41454c;
+	color: white;
+
+}
+
+[customize] a { 
+	font-family: Verdana;
+	font-size: 14px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	margin-right: 50px;
+	border: 1px solid #bbb;
+	display:inline-block;
+	padding: 16px;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: white;
+
+	background-color: #561385; /*Button Color*/
+
+}

@@ -1,6 +1,9 @@
 
-     background-color:#e3e4eb;
-     background-color:transparent;
+/* Background color*/
+background-color:#e3e4eb;
+background-color:transparent;
+
+/* Header title style */
 h1
 {
     font-family: Verdana;
@@ -12,6 +15,7 @@ h1
     width:100%;
 }
 
+/* Text style for page */
 caption
 {   
     font-family: Verdana;
@@ -24,6 +28,8 @@ caption
     padding-bottom: 16px;
     background-color: #e3e4eb;  
 }
+
+/* Table formatting */
 table 
 {
     border: 2px solid black;
@@ -32,8 +38,10 @@ table
     border-collapse: collapse;
     table-layout: fixed;
     width: 100%;
+    margin-bottom: 40px;
 }
 
+/* Cell formatting */
 thead th:nth-child(1)
 {
     width: 20%;

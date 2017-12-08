@@ -1,70 +1,72 @@
 <!DOCTYPE html>
 <html>
+
+<!-- CSS style and page info -->
 <head>
 	<title>Login Page For Group Project</title>
-	<link rel="stylesheet" type="text/css" href="./loginStyle.css">
-	<link rel="stylesheet" type="text/css" href="./header.css">
-    <link rel="icon" href="./tabicon.png">
-
+	<link rel="stylesheet" type="text/css" href="loginStyle.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="icon" href="./tabicon.png">
 </head>
 
+
+<!-- Logo, Shopping Cart, and Login elements-->
+<header> 
+	<a data-home href="index.html"><img src = "CreateLogo.png" ></a>
+
+	<ul class="input">
+		<input type ="text" name="search" placeholder="Search...">
+		<li data-nav><a style = "text-decoration:none;" href="login.html">Login</a></li> 
+		<li data-nav><a style = "text-decoration:none;" href="yourCart.html">Shopping Cart</a>
+		</li>
+	</ul>
+</header>
 <body>
-	<header> 
-     <a data-home href="index.html"><img src = "CreateLogo.png" ></a>
-
-    <ul class="input">
-        <input type ="text" name="search" placeholder="Search...">
-           <li data-nav><a style = "text-decoration:none;" href="login.html">Login</a></li> 
-           <li data-nav><a style = "text-decoration:none;" href="yourOrders.html">Shopping Cart</a>
-          </li>
-    </ul>
-  </header>
-
-    <div class ="navigation">
-      <ul class="nav">
-        <li data-nav><a href="contact.html"> Contact Us </a></li>
-        <li data-nav><a href="accountPage.html"> Your Account </a</li>
-  		<li data-nav><a href="yourOrders.html"> Your Orders </a></li>
-      </ul> 
-    </div>
-
-	<div class ="outline">
-		<div class="container">
-			<h2 style="color:purple; padding: 10px;" ;>Sign In</h2>
-			<form>
-				<div class = "form-input">
-					<input type="text" name="username" placeholder="Enter Email-Address"> 
-				</div>
-
-				<div class = "form-input">
-					<input type="password" name="password" placeholder="Enter Password"> 
-				</div>
-				<input class="login" type ="submit" name="submit" value="LOG IN">
-			</form>
-
-			<h2 style="color:purple; padding: 10px;" ;> Create An Account </h2>
-			<table class = "table">
-		 		<tr>
-    			<td>FAST checkout as your details are securely saved</td>
- 			    </tr>
- 				<tr>
-    			<td>FULL access to your order history and receipts</td>
-  				</tr>
-  				<tr>
-    			<td>TRACK your delivery</td>
-  				</tr>
-  				<tr>
-    			<td>SAVE your favourite items</td>
-  				</tr>
-			</table>
-			<input class="login" type ="submit" name="createAccounts" value="REGISTER">
 
 
+ <!-- Navigation Bar Elements -->
+	<div class ="navigation">
+		<ul class="nav">
+			<li data-nav><a href="contact.html"> Contact Us </a></li>
+			<li data-nav><a href="accountPage.html"> Your Account </a</li>
+				<li data-nav><a href="yourOrders.html"> Your Orders </a></li>
+			</ul> 
 		</div>
-		<footer>
-			
-		</footer>
-	</div>
 
-</body>
-</html>
+<!-- Login Elements -->
+		<div class ="outline">
+			<div class="container">
+				<h2 style="color:#561385; padding: 10px;" ;>Sign In</h2>
+				<form>
+					<div class = "form-input">
+						<input type="password" name="username" placeholder="Enter Email-Address"> 
+					</div>
+
+					<div class = "form-input">
+						<input type="password" name="password" placeholder="Enter Password"> 
+					</div>
+					<input class="login" type ="submit" name="submit" value="Login">
+				</form>
+
+
+<!-- Description Elements -->
+				<h2 style="color:#561385; padding: 10px"> Create an Account </h2>
+				<table class = "table">
+					<tr>
+						<td>Three iPhone cases to choose from.</td>
+					</tr>
+					<tr>
+						<td>Four backgrounds with colour and material customization.</td>
+					</tr>
+					<tr>
+						<td>Fast checkout as your details are securely saved.</td>
+					</tr>
+					<tr>
+						<td>Full access to your order history and receipts.</td>
+					</tr>
+				</table>
+				<input class="login" type ="submit" name="createAccounts" value="Register">
+			</div>
+		</div>
+	</body>
+	</html>

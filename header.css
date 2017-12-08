@@ -1,3 +1,4 @@
+/* CSS for header of every page */
 header {
   color: #e3e4eb;
   background-color: #561385;
@@ -8,14 +9,15 @@ header {
 
 }
 
-
+/* Logo CSS*/
 header img {
-    padding-top: 10px;
-    display: block;
-    margin: 0 auto;
+  padding-top: 10px;
+  display: block;
+  margin: 0 auto;
 
 }
 
+/* Searchbox style*/
 .input  {
   padding-top: 10px;
   border-top: 3px solid #e3e4eb;
@@ -27,9 +29,12 @@ header img {
 }
 
 input{
+  margin-top: 10px;
   padding: 10px;
+  padding-bottom: 20px;
 }
 
+/* Sets background color */
 body {
 	background-color:#e3e4eb;
   margin:0;
@@ -38,19 +43,21 @@ body {
 
 
 
+/* Navigation buttons*/
 .nav{
 
 	list-style: none;
 	padding-top: 1px;	
   text-align:center;
+  padding-bottom: 30px;
 }
 
 .nav li{
  float:left; 
-  
+ 
 }
 
-
+/* Hover and button style*/
 [data-nav] a:hover {
   background-color: #41454c;
   color: white;
@@ -58,28 +65,28 @@ body {
 }
 
 [data-nav] a { 
-    font-family: Verdana;
-    font-size: 14px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border: 1px solid #bbb;
-    display:inline-block;
-    padding: 16px;
-    padding-right: 20px;
-    padding-left: 20px;
-    color: white;
-    margin-right: 20px;
+  font-family: Verdana;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid #bbb;
+  display:inline-block;
+  padding: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  margin-right: 20px;
 
-    background-color: #9981cc; /*Button Color*/
+  background-color: #9981cc; /*Button Color*/
 
 }
 
 
 [data-home] a {  
-    display:inline-block;
-    padding: 10px;
-    color: white;
-    
+  display:inline-block;
+  padding: 10px;
+  color: white;
+  
 
 }
 

@@ -4,27 +4,28 @@
 
 }
 
+/* Image style */
 .types img{
 	
 	vertical-align: top;
     margin-top: 20px;
     margin-left: 40px;
-    border: 2px solid black;
 
+    border: 2px solid black;
     height:500px;
 
 
 }
 
 
-
+/* Style for each button including dropdown menu*/
 .dropdown {
 
 	margin-top: 20px;
     display: inline-block;
 }
 
-
+/* Specific button style */
 .dropbtn {
 	margin-left: 150px;
 	padding-top: 10px;
@@ -38,7 +39,7 @@
 }
 
 
-
+/* Dropdown menu style */
 .dropdown-content {
 	margin-left: 150px;
 
@@ -58,9 +59,8 @@
     display: block;
 }
 
+/* Style for hover */
 .dropdown-content label:hover {background-color: #9981cc}
-
-
 
 
 .dropdown:hover .dropdown-content {
@@ -72,15 +72,11 @@
 }
 
 
-
-.order {
-	
-}
-
+/* Order button style */
 .order li {
     background-color: #561385;
     float:right;
-    margin-right: 150px;
+    margin-right: 110px;
     margin-bottom: 50px;
     display: inline-block;
 }
